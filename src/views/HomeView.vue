@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import testData from '../data/testData';
-  import {createCSV, type Column} from '../utils/createCsv.util';
+  import {createCSV, type Column} from '../utils/csv.util';
 
   const columns: Column[] = [
     {
